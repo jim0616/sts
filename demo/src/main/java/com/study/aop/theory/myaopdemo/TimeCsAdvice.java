@@ -9,7 +9,7 @@ public class TimeCsAdvice implements Advice {
 	@Override
 	public Object invoke(Object target, Method method, Object[] args) throws Exception {
 		
-//		System.out.println(
+//		System.out.println( 
 //				"記錄：" + target.getClass().getName() + "." + method.getName() );
 		
 		
