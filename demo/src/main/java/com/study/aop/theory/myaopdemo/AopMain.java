@@ -21,8 +21,8 @@ public class AopMain {
 		Aspect aspect = new Aspect(advice, pointcut);
 		
 		//到此，用戶要幹的事情就幹完了，該我們完成框架的功能
-		//SPAService spa = new SpaPrincessA();
-		//spa.aromaOilMassage("mike");
+		SPAService spaOld = new SpaPrincessA();
+		spaOld.aromaOilMassage("mike");
 		
 		IocContainer ioc = new IocContainer();
 		ioc.AddBeanDefinition("spa", SpaPrincessA.class);
